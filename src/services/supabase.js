@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
-export const supabaseUrl = "https://taxaysazolbymdmwwwdb.supabase.co";
+export const supabaseUrl = "https://ihtjfqekiboizhrpjmel.supabase.co";
 const supabaseKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRheGF5c2F6b2xieW1kbXd3d2RiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjk2MTU4NTQsImV4cCI6MjA0NTE5MTg1NH0.oaMNG_FdgJOvElvfXaRzz_s1aa5Qxm4xcU_u02r_tuU";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlodGpmcWVraWJvaXpocnBqbWVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAzMDQ3NTQsImV4cCI6MjA1NTg4MDc1NH0.BfMhZGGl-iAb0xyOeWERJId9hrK3v3uN8lO5NlwaOTE";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default supabase;
